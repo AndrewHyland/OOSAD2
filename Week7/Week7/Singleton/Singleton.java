@@ -2,21 +2,23 @@ package Week7.Singleton;
 
 public class Singleton {
 
-	private Singleton instance;
+	private Singleton instance = null;
 	public String name;
         public int instanceCounter;
 
-	private Singleton() {
-		instanceCounter++;
-                // TODO - implement Singleton.Singleton
+	private Singleton()
+        {
 		
-	}
+           instanceCounter++;
+        
+        }
 
 	public Singleton getInstance() 
         {
-		return this.instance;
-	}
+            if (instance = null)
+            {
+                   return this.instance; 
+	    }
+       }
         
-        
-       
 }

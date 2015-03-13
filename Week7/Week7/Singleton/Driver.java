@@ -7,7 +7,7 @@ public class Driver {
         {
           int count = 0;
            Singleton Singleton1 + null;
-           while (count <= 1) {
+           while (count = 0) {
                 singleton1.getInstance();
                 count++;    
             }
