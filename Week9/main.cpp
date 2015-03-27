@@ -6,6 +6,10 @@ using namespace std;
 
 int main()
 {
-printGreeting();
-return 0;
+  //int ndays;
+  //cin >> ndays;
+  //weatherForecast(2);
+
+  printGreeting();
+  return 0;
 }
